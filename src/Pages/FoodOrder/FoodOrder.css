@@ -1,0 +1,8 @@
+html,body{
+    overflow-x: hidden;
+}
+.main-div-of-food-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+}

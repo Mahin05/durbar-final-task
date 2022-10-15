@@ -1,0 +1,14 @@
+.right-drawer{
+    margin-left: 55%;
+    width: 50%;
+    background-color: white;
+    padding-top: ;
+    padding-bottom:50% ;
+    padding-left: ;
+    padding-right: ;
+}
+.side-icon{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 70%;
+}

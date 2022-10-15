@@ -1,0 +1,32 @@
+input {
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid #ada9a9;
+    padding: 1% 6%;
+    /* margin: 1% 1%; */
+    background-image: url('../../../assets/MenuSearchBar/XMLID\ 223.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    outline: 0;
+    background-position: 12px;
+    background-size: 16px;
+}
+.food-nav-main-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+@media only screen and (max-width:576px) {
+    input {
+        width: 90%;
+        border-radius: 10px;
+        border: 1px solid #ada9a9;
+        padding: 1% 6%;
+        /* margin: 1% 1%; */
+        background-image: none;
+        background-size: contain;
+        background-repeat: no-repeat;
+        outline: 0;
+        background-position: 12px;
+        background-size: 16px;
+    }
+}

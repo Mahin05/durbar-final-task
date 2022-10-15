@@ -1,0 +1,62 @@
+[
+    {   
+        "id":1,
+        "dateTime":"Nov 11, 2021, 18:38 PM",
+        "name":"Fast Food Resto",
+        "review":"5.0 ' 1k+ Reviews",
+        "dt":"10 Min",
+        "Distance":"2.5 Km",
+        "menuOne":"Pepperoni Pizza",
+        "menuTwo":"Cheese Burger"
+    },
+    {   
+        "id":2,
+        "dateTime":"Nov 11, 2021, 18:38 PM",
+        "name":"Fast Food Resto",
+        "review":"5.0 ' 1k+ Reviews",
+        "dt":"10 Min",
+        "Distance":"2.5 Km",
+        "menuOne":"Pepperoni Pizza",
+        "menuTwo":"Cheese Burger"
+    },
+    {   
+        "id":3,
+        "dateTime":"Nov 11, 2021, 18:38 PM",
+        "name":"Fast Food Resto",
+        "review":"5.0 ' 1k+ Reviews",
+        "dt":"10 Min",
+        "Distance":"2.5 Km",
+        "menuOne":"Pepperoni Pizza",
+        "menuTwo":"Cheese Burger"
+    },
+    {   
+        "id":4,
+        "dateTime":"Nov 11, 2021, 18:38 PM",
+        "name":"Fast Food Resto",
+        "review":"5.0 ' 1k+ Reviews",
+        "dt":"10 Min",
+        "Distance":"2.5 Km",
+        "menuOne":"Pepperoni Pizza",
+        "menuTwo":"Cheese Burger"
+    },
+    {   
+        "id":5,
+        "dateTime":"Nov 11, 2021, 18:38 PM",
+        "name":"Fast Food Resto",
+        "review":"5.0 ' 1k+ Reviews",
+        "dt":"10 Min",
+        "Distance":"2.5 Km",
+        "menuOne":"Pepperoni Pizza",
+        "menuTwo":"Cheese Burger"
+    },
+    {   
+        "id":6,
+        "dateTime":"Nov 11, 2021, 18:38 PM",
+        "name":"Fast Food Resto",
+        "review":"5.0 ' 1k+ Reviews",
+        "dt":"10 Min",
+        "Distance":"2.5 Km",
+        "menuOne":"Pepperoni Pizza",
+        "menuTwo":"Cheese Burger"
+    }
+]

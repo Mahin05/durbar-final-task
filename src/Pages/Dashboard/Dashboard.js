@@ -21,9 +21,9 @@ const Dashboard = () => {
                     {/* <!-- Sidebar content here --> */}
                     <>
                         <h1 className='text-3xl mb-10'>GoMeal<span>.</span></h1>
-                        <li><Link to="/dashboard/addProduct"><IoFastFoodOutline />Dashboard</Link></li>
-                        <li><Link to="/dashboard/manage"><TbHistory />Menu</Link></li>
-                        <li><Link to="/dashboard/order"><MdDeliveryDining />Food Order</Link></li>
+                        <li><Link to="/dash"><IoFastFoodOutline />Dashboard</Link></li>
+                        <li><Link to="/menu"><TbHistory />Menu</Link></li>
+                        <li><Link to="/order"><MdDeliveryDining />Food Order</Link></li>
                         <li><Link to="/dashboard/manage"><FaCommentAlt />Reviews</Link></li>
                         <li><Link to="/dashboard/manage"><AiFillSetting />Setting</Link></li>
                     </>

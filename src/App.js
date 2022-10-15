@@ -8,8 +8,10 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="dashboard" element={<Dashboard />}>
+        <Route path="/" element={<Dashboard />}>
           <Route index element={<Menu/>}></Route>
+          <Route path='dash' element={<Menu/>}></Route>
+          <Route path='menu' element={<Menu/>}></Route>
           <Route path='order' element={<FoodOrder />}></Route>
         </Route>
       </Routes>
