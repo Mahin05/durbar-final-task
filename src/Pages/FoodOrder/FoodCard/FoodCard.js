@@ -7,7 +7,7 @@ import img from '../../../assets/BestSeller/placeholder.png';
 const FoodCard = () => {
     return (
         <div>
-            <div className='mt-7 food-cards-main-div'>
+            <div className='mt-7 food-cards-main-div mb-5'>
                 <div className='main-food-card-div py-5'>
                     <h1 style={{ "fontWeight": "900" }}>Order#1</h1>
                     <p style={{ "color": "#a098ae", "fontSize": "13px" }}>Nov 11, 2021, 18:38 PM</p>

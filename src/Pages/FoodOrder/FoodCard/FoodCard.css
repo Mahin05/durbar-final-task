@@ -1,69 +1,92 @@
-.main-food-card-div{
+.main-food-card-div {
     background-color: white;
     width: 70%;
     height: 100%;
     border-radius: 15px;
 }
-.dd-pos{
+
+.dd-pos {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
-.order-main-div{
+
+.order-main-div {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
-.total-div{
+
+.total-div {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
-.all-text-align{
+
+.all-text-align {
     text-align: start;
 }
-.food-card-img{
+
+.food-card-img {
     width: 60%;
     height: 100%;
 }
-.item-name-style{
+
+.item-name-style {
     width: 120%;
 }
-.food-card-button-style{
-    background-color: rgba(166,196,74,0.10196078431372549 );
+
+.food-card-button-style {
+    background-color: rgba(166, 196, 74, 0.10196078431372549);
     color: #a6c44a;
     padding: 3% 25%;
     border-radius: 20px;
     border: 1px solid #a6c44a;
 }
-.food-card-button-stylee{
+
+.food-card-button-stylee {
     font-size: 13px;
-    background-color: rgba(248,182,2,0.10196078431372549 );
+    background-color: rgba(248, 182, 2, 0.10196078431372549);
     color: #f8b602;
     padding: 4% 20%;
     border-radius: 20px;
     border: 1px solid #f8b602;
 }
-.food-card-button-styleee{
+
+.food-card-button-styleee {
     font-size: 13px;
-    background-color: rgba(45,156,219,0.10196078431372549 );
+    background-color: rgba(45, 156, 219, 0.10196078431372549);
     color: #2d9cdb;
     padding: 4% 16%;
     border-radius: 20px;
     border: 1px solid #2d9cdb;
 }
-hr{
+
+hr {
     width: 80%;
     margin-left: 7%;
 }
-.food-cards-main-div{
+
+.food-cards-main-div {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 9px;
 }
-.card-right-sidebar-main-div{
+
+.card-right-sidebar-main-div {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 @media only screen and (max-width:576px) {
+    .food-cards-main-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 9px;
+    }
 
+    .main-food-card-div {
+        background-color: white;
+        width: 90%;
+        height: 100%;
+        border-radius: 15px;
+    }
 
 }
