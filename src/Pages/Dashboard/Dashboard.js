@@ -24,8 +24,8 @@ const Dashboard = () => {
                         <li><Link to="/dash"><IoFastFoodOutline />Dashboard</Link></li>
                         <li><Link to="/menu"><TbHistory />Menu</Link></li>
                         <li><Link to="/order"><MdDeliveryDining />Food Order</Link></li>
-                        <li><Link to="/dashboard/manage"><FaCommentAlt />Reviews</Link></li>
-                        <li><Link to="/dashboard/manage"><AiFillSetting />Setting</Link></li>
+                        <li><Link to="#"><FaCommentAlt />Reviews</Link></li>
+                        <li><Link to="#"><AiFillSetting />Setting</Link></li>
                     </>
                     {/* <>
                         <h1 className='text-3xl mb-10'>GoMeal<span>.</span></h1>
