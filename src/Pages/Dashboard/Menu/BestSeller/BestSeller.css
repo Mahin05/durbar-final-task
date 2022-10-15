@@ -1,0 +1,27 @@
+.best-seller-card-main-div {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 5px;
+}
+
+.best-seller-card {
+    width: 100%;
+    height: 85%;
+}
+.sold-card {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    width: 150%;
+    margin-left: 63%;
+}
+.card-text-size {
+    font-size: 10px;
+}
+
+@media only screen and (max-width:576px) {
+    .best-seller-card-main-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 5px;
+    }
+}

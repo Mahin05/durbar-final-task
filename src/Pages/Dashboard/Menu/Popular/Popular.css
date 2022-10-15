@@ -1,0 +1,35 @@
+.popular-main-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2px;
+}
+
+.popular-card {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.popular-card-pos-set {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: start;
+}
+
+.card-side-style {
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 12px;
+    width: 100%;
+}
+.card-side-style {
+    text-align: start;
+}
+.user-rev-style {
+    width: 210%;
+}
+
+@media only screen and (max-width:576px) {
+    .popular-main-div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,38 @@
+.menu-nav-style {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.menu-text-style-set {
+    text-align: start;
+}
+.menu-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-left: 60%;
+    height: 24%;
+    width: 28%;
+}
+@media only screen and (max-width:576px) {
+
+    .menu-text-style-set {
+        text-align: start;
+    }
+
+    .menu-nav-style {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .menu-icons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-content: center;
+        margin-left: 60%;
+        height: 29%;
+        width: 33%;
+        margin-top: 13px;
+    }
+}

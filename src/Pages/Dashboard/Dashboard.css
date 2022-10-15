@@ -1,227 +1,26 @@
-.menu-text-style-set {
-    text-align: start;
-}
 
-.menu-nav-style {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
 
-.menu-icons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    justify-content: center;
-    margin-left: 60%;
-    height: 24%;
-    width: 28%;
-}
 
-input {
-    width: 90%;
-    border-radius: 10px;
-    border: 1px solid #ada9a9;
-    padding: 1% 6%;
-    /* margin: 1% 1%; */
-    background-image: url('../../assets/MenuSearchBar/XMLID\ 223.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    outline: 0;
-    background-position: 12px;
-    background-size: 16px;
-}
 
-.add-new-btn-style {
-    border: none;
-    border-radius: 6px;
-    background-color: #f8b602;
-    color: white;
-    padding: 10px 30px;
-}
 
-.menu-search-addbtn-main-div {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 20px;
-}
 
-.btn-pos-set {
-    margin-left: 60%;
-}
 
-.category-main-div {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-column-gap: 2px;
-}
 
-.popular-main-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 2px;
-}
 
-.border-style-set {
-    background-color: #ffffff;
-    border-radius: 7px;
-}
 
-.popular-card {
-    width: 100%;
-    height: 100%;
-    background-color: white;
-}
 
-.popular-card-pos-set {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: start;
-}
 
-.card-side-style {
-    margin-left: 10%;
-    margin-top: 10px;
-    font-size: 12px;
-    width: 100%;
-}
 
-.user-rev-style {
-    width: 210%;
-}
 
-.sold-card {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    width: 150%;
-    margin-left: 63%;
-}
 
-.best-seller-card-main-div {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-column-gap: 5px;
-}
 
-.best-seller-card {
-    width: 100%;
-    height: 85%;
-}
 
-.card-text-size {
-    font-size: 10px;
-}
 
-.promo-main-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 5px;
-}
 
-.promo-card-pos-set {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
 
-.promo-card {
-    background-color: white;
-    width: 100%;
-}
 
-.card-side-style {
-    text-align: start;
-}
 
-.off-style {
-    background-color: #eb5757;
-    color: #ffffff;
-    width: 50%;
-    padding-left: 10%;
-}
+
 
 /* Media Query For Mobile Device */
-@media only screen and (max-width:576px) {
-    .menu-text-style-set {
-        text-align: start;
-    }
-
-    .menu-nav-style {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .menu-icons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        align-items: center;
-        justify-content: center;
-        margin-left: 60%;
-        height: 29%;
-        width: 33%;
-        margin-top: 13px;
-    }
-
-    input {
-        width: 90%;
-        border-radius: 10px;
-        border: 1px solid #ada9a9;
-        padding: 1% 6%;
-        /* margin: 1% 1%; */
-        background-image: none;
-        background-size: contain;
-        background-repeat: no-repeat;
-        outline: 0;
-        background-position: 12px;
-        background-size: 16px;
-    }
-
-    .add-new-btn-style {
-        font-size: 5px;
-        border: none;
-        border-radius: 6px;
-        background-color: #f8b602;
-        color: white;
-        padding: 7px 21px;
-    }
-
-    .menu-search-addbtn-main-div {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .btn-pos-set {
-        margin-left: 60%;
-    }
-
-    .category-main-div {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 2px;
-    }
-
-    .border-style-set {
-        background-color: #ffffff;
-        border-radius: 10px;
-        margin-top: 3px;
-    }
-
-    .popular-main-div {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    ..best-seller-card-main-div {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-column-gap: 5px;
-    }
-
-    .best-seller-card-main-div {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 5px;
-    }
-    .promo-main-div {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 5px;
-    }
-}
+@media only screen and (max-width:576px) {}

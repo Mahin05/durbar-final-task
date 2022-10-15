@@ -1,0 +1,24 @@
+.category-main-div {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 2px;
+}
+
+.border-style-set {
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+@media only screen and (max-width:576px) {
+    .category-main-div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 2px;
+    }
+
+    .border-style-set {
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin-top: 3px;
+    }
+}
